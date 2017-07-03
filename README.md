@@ -10,7 +10,56 @@
 </tr>
 <tr>
 <td>mark1</td>
-<td>#pragma mark - 1️⃣➢➢➢ <#mark#>
-}</td>
+<td>#pragma mark - 1️⃣➢➢➢ <#mark#></td>
 </tr>
+<tr>
+<td>blockproperty</td>
+<td>@property (nonatomic,copy) <#returnType#> (^<#blockName#>)(<#parameterTypes#>);</td>
+</tr>
+<tr>
+<td>pa</td>
+<td>@property (nonatomic,assign) <#type#> <#name#></td>
+</tr>
+
+<tr>
+<td>pc</td>
+<td>@property (nonatomic, copy) <#type#> *<#name#></td>
+</tr>
+
+<tr>
+<td>psr</td>
+<td>@property (nonatomic, strong, readonly) <#type#> *<#name#></td>
+</tr>
+
+<tr>
+<td>ps</td>
+<td>@property (nonatomic, strong) <#type#> *<#name#></td>
+</tr>
+
+<tr>
+<td>pw</td>
+<td>@property (nonatomic, weak) <#type#> <#name#></td>
+</tr>
+
+<tr>
+<td></td>
+<td></td>
+</tr>
+
+<tr>
+<td></td>
+<td></td>
+</tr>
+
+<tr>
+<td></td>
+<td></td>
+</tr>
+
+<tr>
+<td></td>
+<td></td>
+</tr>
+
 </table>
+
