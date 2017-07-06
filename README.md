@@ -43,18 +43,19 @@
 
 <tr>
 <td>sharedInstance</td>
-<td>+ (instancetype)sharedInstance {
-    static dispatch_once_t onceToken;
-    static <#class name#> *instance = nil;
-    dispatch_once(&onceToken,^{
-        instance = [[super allocWithZone:NULL] init];
-    });
-    return instance;
+<td>+ (instancetype)sharedInstance {<br>
+    static dispatch_once_t onceToken;<br>
+    static <#class name#> *instance = nil;<br>
+    dispatch_once(&onceToken,^{<br>
+        instance = [[super allocWithZone:NULL] init];<br>
+    });<br>
+    return instance;<br>
+}<br>
+<br>
++ (id)allocWithZone:(struct _NSZone *)zone{<br>
+    return [self sharedInstance];<br>
 }
-
-+ (id)allocWithZone:(struct _NSZone *)zone{
-    return [self sharedInstance];
-}</td>
+</td>
 </tr>
 
 <tr>
