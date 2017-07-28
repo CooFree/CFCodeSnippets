@@ -59,8 +59,11 @@
 </tr>
 
 <tr>
-<td></td>
-<td></td>
+<td>protocol</td>
+<td>@protocol <#DataSource#> < NSObject > <br>
+@required<br>
+@end<br>
+</td>
 </tr>
 
 <tr>
