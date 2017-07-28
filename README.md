@@ -42,13 +42,28 @@
 </tr>
 
 <tr>
-<td></td>
-<td></td>
+<td>sharedInstance</td>
+<td>+ (instancetype)sharedInstance {<br>
+    static dispatch_once_t onceToken;<br>
+    static <#class name#> *instance = nil;<br>
+    dispatch_once(&onceToken,^{<br>
+        instance = [[super allocWithZone:NULL] init];<br>
+    });<br>
+    return instance;<br>
+}<br>
+<br>
++ (id)allocWithZone:(struct _NSZone *)zone{<br>
+    return [self sharedInstance];<br>
+}
+</td>
 </tr>
 
 <tr>
-<td></td>
-<td></td>
+<td>protocol</td>
+<td>@protocol <#DataSource#> < NSObject > <br>
+@required<br>
+@end<br>
+</td>
 </tr>
 
 <tr>
