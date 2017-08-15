@@ -1,7 +1,10 @@
 # CFCodeSnippets
 
-文件目录
-```~/Library/Developer/Xcode/UserData/CodeSnippets/```
+
+将文件放入目录```~/Library/Developer/Xcode/UserData/CodeSnippets/```中
+重启Xcode
+
+![](./1.gif)
 
 <table>
 <tr>
