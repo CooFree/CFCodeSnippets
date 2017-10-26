@@ -1,7 +1,10 @@
 # CFCodeSnippets
 
-文件目录
-```~/Library/Developer/Xcode/UserData/CodeSnippets/```
+
+将文件放入目录```~/Library/Developer/Xcode/UserData/CodeSnippets/```中
+重启Xcode
+
+![](./1.gif)
 
 <table>
 <tr>
@@ -11,6 +14,10 @@
 <tr>
 <td>mark1</td>
 <td>#pragma mark - 1️⃣➢➢➢ <#mark#></td>
+</tr>
+<tr>
+<td>mark!</td>
+<td>//!!!!: <#注释#></td>
 </tr>
 <tr>
 <td>blockproperty</td>
